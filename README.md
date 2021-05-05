@@ -1,7 +1,7 @@
 # ejercicios2020
 Ejercicios de HTML, CSS y JS para Laboratorio de Computación II
 
-Link: [Ejercicios2021](https://github.com/UCC-LabCompu2/ejercicios2021-edme88/blob/master/Ejercicios-HTML/index.html)
+Link: [Ejercicios2021](https://ucc-labcompu2.github.io/ejercicios2021-edme88/Ejercicios-HTML/index.html)
 
 ### TODO LIST
 * Ejercicios de margin-padding
