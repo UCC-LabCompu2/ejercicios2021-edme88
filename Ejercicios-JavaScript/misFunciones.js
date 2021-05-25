@@ -29,6 +29,8 @@ function conversor(id_input, valor_input) {
         val_yardas=1.09361*valor_input;
     }
     document.getElementById("metro").value= val_metros;
+    document.form[0].input[0].value  = val_metros;
+    document.lasUnidades.unid_metro.value = val_metros;
     document.getElementById("pie").value= val_pies;
     document.getElementById("pulgada").value=val_pulgadas;
     document.getElementById("yarda").value=val_yardas;
@@ -43,7 +45,7 @@ function convertirGR() {
     var grados, radianes;
     grados = document.getElementById("grados").value;
     radianes = (grados*Math.PI)/180;
-    document.getElementById("radianes").value = radianes;
+    document.getElementById("radianes").value = radianes.toFixed(4);
 }
 
 /**
