@@ -1,0 +1,23 @@
+/*Estilos generales*/
+body{
+    text-align: center;
+    font-family: 'Gugi', cursive;
+    background: linear-gradient(to right, #84c9e6, #d9eeff);
+}
+div{
+    border: 3px dashed #52a1ff;
+    margin: 15px;
+    padding: 5px 30px;
+    background: rgba(141, 197, 230, 0.9);
+    border-radius: 15px;
+}
+img{
+    width: 80px;
+    float: left;
+    border-radius: 50%;
+}
+
+/*Estilos de los titulos*/
+h3{
+    font-family: 'Orbitron', sans-serif;
+}
